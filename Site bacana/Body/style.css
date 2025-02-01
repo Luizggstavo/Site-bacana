@@ -1,0 +1,56 @@
+.Imagem1 img {
+    display: flex;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: -8px;
+}
+
+.imagem2 img{
+    display: flex;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 600px;
+    position: relative;
+    top: -220px;
+    left: 30px;
+}
+
+.imagem3 img{
+    display: flex;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    top: -220px;
+}
+
+.imagem4 img{
+    display: flex;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    top: -500px;
+    left: 700px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;  /* Remove espaços abaixo da imagem */
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado {
+    width: 500px;  /* Define a largura do quadrado */
+    height: 500px; /* Define a altura do quadrado */
+    background-color: rgba(0, 0, 0, 0.9); /* Torna o quadrado preto */
+    position: relative;
+    top: -1150px;
+    left: 400px;
+}
+
+.container {
+    text-align: center;
+}
